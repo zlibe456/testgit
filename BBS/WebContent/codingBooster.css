@@ -1,0 +1,23 @@
+@charset "EUC-KR";
+@import url(https://fonts.googleapis.com/css?family=Nanum+Brush+Script);
+@import url(http://font.google.com/earlyaccess/nanumgothic.css);
+
+
+*{
+/*  font-family:'Nanum Gothic'; */
+ font-family: 'Nanum Brush Script', cursive; 
+ font-size: 20px;
+}
+*{
+ color:powderblue;
+ text-decoration: none;	
+ }
+ *hover{
+
+ text-decoration: none;
+ cursor:pointer;
+ }
+ .navbar-default{
+  background-color:#000000;
+  border-color:powderblue;
+ }
