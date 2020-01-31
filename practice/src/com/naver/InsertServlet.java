@@ -58,6 +58,7 @@ public class InsertServlet extends HttpServlet {
 		application.setAttribute("dto", new MemberDTO(id, name, age));
 		
 		response.sendRedirect("test.jsp");
+		response.setContentType("text/html;charset = euc-kr");
 		PrintWriter out = response.getWriter();
 		out.print("<html>");
 		out.print("<body>");
